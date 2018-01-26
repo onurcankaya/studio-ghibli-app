@@ -16,6 +16,11 @@ img {
   max-width: 100%;
 }
 
+marquee {
+  font-size: 3em;
+  color: magenta;
+}
+
 p {
   padding: 0 2.5rem 2.5rem;
   margin: 0;

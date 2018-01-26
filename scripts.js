@@ -41,7 +41,13 @@ request.onload = function() {
       console.log(film.title)
     })
   } else {
-    console.log('error')
+    // marquee is a joke...
+
+    const errorMessage = document.createElement('marquee')
+    errorMessage.textContent = `Pfff, it is not working!`
+    container.appendChild(errorMessage)
+
+    console.log(errorMessage.textContent)
   }
 }
 
